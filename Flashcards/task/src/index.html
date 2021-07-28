@@ -3,17 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("https://stepik.org/media/attachments/lesson/374893/world.png");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .quizArea {
+        }
+
+        .title {
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+            color: darkgray;
+            background: lightgray;
+            padding: 10px 20px;
+            font-size: 30px;
+            border-radius: 30px;
+            display: block;
+            width: fit-content;
+            margin: auto;
+            font-family: Arial;
+        }
+
+        .cards {
+            margin: auto;
+            width: 600px;
+            height: 600px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            justify-items: center;
+            align-items: center;
+            width: 30%;
+            height: 30%;
+            background: lightgoldenrodyellow;
+            text-align: center;
+            color: sandybrown;
+            font-size: 20px;
+            font-family: Arial;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>What is the capital of...</h1>
-    <div><p>Poland</p></div>
-    <div><p>Germany</p></div>
-    <div><p>Czech Republic</p></div>
-    <div><p>Slowakia</p></div>
-    <div><p>Ukraine</p></div>
-    <div><p>Belarus</p></div>
-    <div><p>Latwa</p></div>
-    <div><p>Russia</p></div>
-    <div><p>Sweeden</p></div>
+    <div class="quizArea">
+        <h1 class="title">What is the capital of...</h1>
+        <div class="cards">
+            <div class="card"><p class="question">Poland</p></div>
+            <div class="card"><p class="question">Germany</p></div>
+            <div class="card"><p class="question">Czech Republic</p></div>
+            <div class="card"><p class="question">Slovakia</p></div>
+            <div class="card"><p class="question">Ukraine</p></div>
+            <div class="card"><p class="question">Belarus</p></div>
+            <div class="card"><p class="question">Lithuania</p></div>
+            <div class="card"><p class="question">Russia</p></div>
+            <div class="card"><p class="question">Sweden</p></div>
+        </div>
+    </div>
 </body>
 </html>
