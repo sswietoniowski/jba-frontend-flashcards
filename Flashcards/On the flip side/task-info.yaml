@@ -263,6 +263,13 @@ files:
         }
     );
   learner_created: false
+- name: src/README.md
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/115/stages/627/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Sun, 01 Aug 2021 07:26:51 UTC
 record: -1
